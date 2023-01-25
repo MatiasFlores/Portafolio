@@ -66,7 +66,7 @@ export default function Modal() {
     }
     
   return (
-    <div name="Experience" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
+    <div name="Experience" className="w-full h-auto bg-gradient-to-b from-gray-800 to-black text-white">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto">
       <div className="pb-8">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline position:relative">
@@ -75,7 +75,7 @@ export default function Modal() {
           </div>
 
 {/*DIV para el cuadro donde se muestran las imagenes */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-auto grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {experiencia.map(({ id, src, title,fecha,lugar,style }) => (
             <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
