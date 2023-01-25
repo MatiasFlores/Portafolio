@@ -8,12 +8,12 @@ const Languages = () => {
     {
       id: 1,
       src: Argentina,
-      title: "Competencia bilingüe o nativa",
+      title: "Español: Nativo (C2)",
     },
     {
       id: 2,
       src: English,
-      title: "Competencia profesional completa",
+      title: "Ingles: Avanzado (B2)",
     },
   ];
 
