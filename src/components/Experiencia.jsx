@@ -94,10 +94,10 @@ export default function Modal() {
 <>
   {showModal1 ? (
     <>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="grid grid-cols-1 justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
         <div className="relative w-auto my-6 mx-auto max-w-6xl">
           {/*content*/}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none text-center">
+          <div className="border-0 rounded-lg shadow-lg relative w-full bg-white outline-none focus:outline-none text-center">
             {/*header*/}
             <div className=" justify-between bg-gradient-to-b from-gray-800 to-black">
               <h3 className="text-3xl font-semibold">
@@ -158,10 +158,10 @@ export default function Modal() {
 <>
   {showModal2 ? (
     <>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="grid grid-cols-1 justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
         <div className="relative w-auto my-6 mx-auto max-w-6xl">
           {/*content*/}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none text-center">
+          <div className="border-0 rounded-lg shadow-lg relative w-full bg-white outline-none focus:outline-none text-center">
             {/*header*/}
             <div className=" justify-between bg-gradient-to-b from-gray-800 to-black">
               <h3 className="text-3xl font-semibold">
@@ -208,10 +208,10 @@ export default function Modal() {
 <>
   {showModal3 ? (
     <>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none text-left">
+      <div className="grid grid-cols-1 justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none text-left">
         <div className="relative w-auto my-6 mx-auto max-w-6xl">
           {/*content*/}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none text-center">
+          <div className="border-0 rounded-lg shadow-lg relative w-full bg-white outline-none focus:outline-none text-center">
             {/*header*/}
             <div className=" justify-between bg-gradient-to-b from-gray-800 to-black">
               <h3 className="text-3xl font-semibold">
@@ -260,10 +260,10 @@ export default function Modal() {
 <>
   {showModal4 ? (
     <>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="grid grid-cols-1 justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
         <div className="relative w-auto my-6 mx-auto max-w-6xl">
           {/*content*/}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none text-center">
+          <div className="border-0 rounded-lg shadow-lg relative w-full bg-white outline-none focus:outline-none text-center">
             {/*header*/}
             <div className=" justify-between bg-gradient-to-b from-gray-800 to-black">
               <h3 className="text-3xl font-semibold">
