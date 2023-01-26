@@ -11,3 +11,9 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+@media (min-width: 768px) {
+  .home {
+    height: 80vh;
+  }
+}

@@ -36,7 +36,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-      {/* <h1 className="text-5xl font-signature ml-2">Matias Flores</h1>Es para poner algo a la izquierda puedo poner el icono*/}
+        {/*<img src={"./FavIcon.png"} alt="" className="w-10 mx-auto" />*/}
       </div>
 
       <ul className="hidden md:flex">
