@@ -2,6 +2,7 @@ import React from "react";
 import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -19,13 +20,23 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
+          GitHub <BsGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/MatiasFlores",
+      style: "rounded-br-md",
+    },
+    {
+      id: 3,
+      child: (
+        <>
           Whatsapp <FaWhatsapp size={30} />
         </>
       ),
       href: "https://wa.me/+34678668992",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -34,7 +45,7 @@ const SocialLinks = () => {
       href: "mailto:matias.flores.embon@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           CV <BsFillPersonLinesFill size={30} />

@@ -10,7 +10,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-4">
+        <p className="text-xl mt-4 text-left">
         Actualmente residiendo en Barcelona.<br />
         <br />
         Cuento con experiencia trabajando en empresas multinacionales con mas de 140.000 empleados.<br />
@@ -27,14 +27,6 @@ const About = () => {
         Participe en el desarrollo de diferentes módulos como su implementación algunos de ellos son:<br />
         Hospitalización, Urgencias, Consulta externa, admisión de pacientes, farmacia, cirugías, facturación, compras, pago a proveedores.
         </p>
-
-        <br />
-
-        <p className="text-xl">
-        
-        </p>
-
-
       </div>
     </div>
   );
